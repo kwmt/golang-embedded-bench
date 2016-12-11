@@ -1,4 +1,5 @@
 ginでEngine構造体に埋め込まれたRouterGroupを`engine.RouterGroup`のように使っていて、可読性のためであることはすぐわかるのですが、速度も気にしているのかな？とちょっと気になったのでベンチを取ってみた
+
 https://github.com/gin-gonic/gin/blob/master/gin.go#L166
 
 ```
